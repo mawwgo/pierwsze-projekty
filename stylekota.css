@@ -1,0 +1,51 @@
+body {}
+
+.ramka { width: 800px;
+                height: 500px;
+                background: white;
+               margin: auto;
+                margin-top: 40px;
+               border: 1px none black;
+                box-shadow: 1px 1px 5px black;}
+
+.gora { background-color: dimgrey;
+height: 40%;
+color: white;
+    padding: 5px;   
+}
+.rzad {display: flex;
+justify-content: space-between;
+}
+
+.img-circle {margin-right: 40px;
+    max-height: 100%;}
+h1, h2, p {margin-left: 20px;}
+
+h2 {color: dimgrey;}
+
+.dol { height: 60%;
+    }
+
+.zdjecia {max-height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+   align-items: flex-end;
+    align-items: center;
+}
+
+.pierwsze, .drugie, .trzecie { 
+    max-height: 120px;
+    max-width: 50%;
+    flex-direction: row;
+       
+}
+
+.trzecie {max-height: 200px;}
+
+
+.img-circle {border-radius: 50%;
+    border: 1px none black;
+    box-shadow: 5px 5px 5px black;
+    
+}
